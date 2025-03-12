@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Photo Booth</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="luxury-title">Lustré Photobooth</h1>
+
+        <div class="camera-container">
+            <video id="video" autoplay></video>
+            <button id="capture">
+                <div class="camera-icon">📸</div>
+                <span>Capture</span>
+            </button>
+        </div>
+
+        <div class="background-options">
+            <label for="bg-color">🎨 Select Photo Strip Background:</label>
+            <input type="color" id="bg-color">
+        </div>
+
+        <div class="photo-strip-container">
+            <canvas id="photo-strip"></canvas>
+        </div>
+
+        <button id="download">⬇ Download Photo Strip</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
