@@ -1,1 +1,1 @@
-# lustrebooth
+# LusturePhotobooth
